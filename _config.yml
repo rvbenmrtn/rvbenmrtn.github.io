@@ -2,11 +2,14 @@
 # This file contains configuration flags to customize your site
 #
 
+# To run locally:
+# jekyll serve --watch
+
 # Name of your site (displayed in the header)
 name: Discrete Games
 
 # Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+description: Developer from Somewhere
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
@@ -72,7 +75,7 @@ sass:
   style: :expanded # You might prefer to minify using :compressed
 
 # Use the following plug-ins
-gems:
+plugins:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
 
