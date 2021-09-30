@@ -18,7 +18,7 @@ My username is partly an acronym that encompasses many of my interests:
 and things were you can be exact.
 - G for Games – I won the [PyWeek 31](https://pyweek.org/31/) game jam with my solo entry
 [Python Prison](https://pyweek.org/e/pythonprison/).
-- A for Art – I've [drawn and animated many emotes](https://www.behance.net/discretegames).
+- A for Art – I've drawn and animated [many emotes](https://www.behance.net/discretegames) for Twitch and Discord.
 - M for Math – I made [a Python library for working with hypercomplex numbers](https://pypi.org/project/hypercomplex/).
 - E for Engineering – I've made many
 [K'NEX contraptions](https://www.youtube.com/channel/UC-3f_6STTSZk5yoCS3UC1Tw/videos),
