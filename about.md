@@ -34,8 +34,6 @@ including a [4-bit adder](https://youtu.be/1mxZ6jJ6iic).
 [<img src="https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>](
 https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)
 
-[![discretegames logo](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)](
-https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)
 
 NAND is awesome because it can be used to make [entire](https://nandgame.com/),
 [functioning](https://www.nand2tetris.org/) computers.
