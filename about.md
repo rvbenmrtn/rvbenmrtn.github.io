@@ -31,6 +31,9 @@ including a [4-bit adder](https://youtu.be/1mxZ6jJ6iic).
 [My logo](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png) is a
 [NAND logic gate](https://en.wikipedia.org/wiki/NAND_gate) shaped like a D inside a stylized G:
 
+[<img src="https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>](
+https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)
+
 [![discretegames logo](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)](
 https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)
 
