@@ -4,46 +4,52 @@ title: About
 permalink: /about/
 ---
 
-You are on [the personal blog of me, discretegames](https://discretegames.github.io/).
-All the posts here are written by me about various little or big projects I do, usually involving computer science and
-software development.
-
-## About Me
-
 I am discretegames, just a guy online who prefers to remain
 [discreet](https://www.merriam-webster.com/words-at-play/discreet-discrete-definitions-examples),
-so you won't see a lot of personal info here.
+so you won't see a lot of personal info here. You are on [my blog](https://discretegames.github.io/).
+All the posts here are written by me about various little or big projects I do,
+usually involving computer science and software development.
 
-My username "discretegames" encompasses many of my interests and is part-acronym:
+## Username
 
-- Discrete (non-continuous) things like [discrete math](https://en.wikipedia.org/wiki/Discrete_mathematics) and
-[pixels](https://codegolf.stackexchange.com/questions/203621/generate-green-spray-paint-patterns).
-- G for Games: I won the [PyWeek 31](https://pyweek.org/31/) game jam with my solo entry
+My username is partly an acronym that encompasses many of my interests:
+
+- Discrete – Because I like [discrete math](https://en.wikipedia.org/wiki/Discrete_mathematics)
+and things were you can be exact.
+- G for Games – I won the [PyWeek 31](https://pyweek.org/31/) game jam with my solo entry
 [Python Prison](https://pyweek.org/e/pythonprison/).
-- A for Art: I've [drawn and animated many emotes](https://www.behance.net/discretegames) and related art.
-- M for Math: I made [a Python library for working with hypercomplex numbers](https://pypi.org/project/hypercomplex/).
-- E for Engineering: I've made many
+- A for Art – I've [drawn and animated many emotes](https://www.behance.net/discretegames).
+- M for Math – I made [a Python library for working with hypercomplex numbers](https://pypi.org/project/hypercomplex/).
+- E for Engineering – I've made many
 [K'NEX contraptions](https://www.youtube.com/channel/UC-3f_6STTSZk5yoCS3UC1Tw/videos),
 including a [4-bit adder](https://youtu.be/1mxZ6jJ6iic).
-- S for (Computer) Science: I love programming and
-[theoretical computer science](https://cdn.discordapp.com/attachments/480162150225018891/868254314488016937/Complexity_Classes_v2.png).
+- S for (Computer) Science – I [love programming](https://github.com/discretegames?tab=repositories) and
+[theoretical computer science](
+https://cdn.discordapp.com/attachments/480162150225018891/868254314488016937/Complexity_Classes_v2.png).
 
-[My logo](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png) is a
+## Logo
+
+[My logo][logo] is a
 [NAND logic gate](https://en.wikipedia.org/wiki/NAND_gate) shaped like a D inside a stylized G:
 
-[<img src="https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>](
-https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/logo.png)
+ <!-- markdownlint-disable MD033 -->
+[<img src="{{ site.baseurl }}/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>][logo]
 
-
-NAND is awesome because it can be used to make [entire](https://nandgame.com/),
+NAND gates are awesome since they can be used to make [entire](https://nandgame.com/),
 [functioning](https://www.nand2tetris.org/) computers.
 
 ## Where to Find Me
 
-I'm [@discretegames](https://twitter.com/discretegames) on Twitter: [twitter.com/discretegames](https://twitter.com/discretegames)
+On Twitter: [twitter.com/discretegames](https://twitter.com/discretegames)
 
-I'm [@discretegames](https://github.com/discretegames) on GitHub: [github.com/discretegames](https://github.com/discretegames)
+On GitHub: [github.com/discretegames](https://github.com/discretegames)
 
 I'm also a Helper on the [Python Discord](https://discord.com/invite/python). 🐍
 
 Email: discretizedgames[at]gmail.com
+
+---
+
+*[This blog's source](https://github.com/discretegames/discretegames.github.io) is based on [Jekyll Now](https://github.com/barryclark/jekyll-now)*
+
+[logo]: {{ site.baseurl }}/assets/logo.png
