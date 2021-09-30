@@ -50,6 +50,11 @@ Email: discretizedgames[at]gmail.com
 
 ---
 
-*[This blog's source](https://github.com/discretegames/discretegames.github.io) is based on [Jekyll Now](https://github.com/barryclark/jekyll-now)*
+*Code on this blog is [MIT](https://opensource.org/licenses/MIT) licensed and post content is
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+[See full terms here.](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/LICENSE.txt)*
+
+*[This blog's source](https://github.com/discretegames/discretegames.github.io)
+is based on [Jekyll Now](https://github.com/barryclark/jekyll-now)*
 
 [logo]: {{ site.baseurl }}/assets/logo.png
