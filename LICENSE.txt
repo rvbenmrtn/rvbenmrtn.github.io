@@ -1,4 +1,4 @@
-This license considers both the blog content (https://discretegames.github.io/) and the blog source code (https://github.com/discretegames/discretegames.github.io).
+This license considers both the blog content (https://discretegames.github.io) and the blog source code (https://github.com/discretegames/discretegames.github.io).
 
 ----------
 
@@ -9,7 +9,7 @@ The following license terms apply unless otherwise specified:
 The source code and code snippets on posts and pages of this blog are licensed under the MIT license (https://opensource.org/licenses/MIT).
 
 
-Text and images and other non-code content of posts and pages of this blog are licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0/).
+Text and images and other non-code content of posts and pages of this blog are licensed under the Creative Commons Attribution-ShareAlike 4.0 International license (CC BY-SA 4.0, https://creativecommons.org/licenses/by-sa/4.0).
 
 
 The exception to the above is the discretegames logo (https://discretegames.github.io/assets/logo.png) which is copyright (c) 2021 discretegames, all rights reserved.
