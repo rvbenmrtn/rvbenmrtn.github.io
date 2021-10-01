@@ -19,7 +19,7 @@ html {
 
 body {
 	background: $main-background-color;
-	font: 18px/1.4 $helvetica;
+	font: 18px/1.4 $main-text-font;
 	color: $main-text-color;
 }
 
@@ -36,7 +36,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: $helvetica-neue;
+	font-family: $main-titles-font;
 	color: $header-text-color;
 	font-weight: bold;
 
@@ -132,16 +132,6 @@ img {
 	color: $post-date-text-color;
 }
 
-// Specify the color of the selection
-::-moz-selection {
-	color: $selection-text-color;
-	background: $selection-background-color;
-}
-::selection {
-	color: $selection-text-color;
-	background: $selection-background-color;
-}
-
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
@@ -206,7 +196,7 @@ img {
 	margin: 0;
 	color: $site-name-text-color;
 	cursor: pointer;
-	font-family: $helvetica-neue;
+	font-family: $main-titles-font;
 	font-weight: 300;
 	font-size: 28px;
 	letter-spacing: 1px;
@@ -224,8 +214,8 @@ img {
 
 nav {
 	float: right;
-	margin-top: 23px; // @TODO: Vertically middle align
-	font-family: $helvetica-neue;
+	margin-top: 22px; // @TODO: Vertically middle align
+	font-family: $main-titles-font;
 	font-size: 18px;
 
 	@include mobile {

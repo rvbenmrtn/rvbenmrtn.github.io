@@ -2,42 +2,44 @@
 // VARIABLES
 //
 
-$primary-dark: rgb(20, 20, 20);
-$secondary-dark: rgb(32, 32, 32);
+// Color Definitions
+$white: white;
 
-$primary-light: #fff;
-$secondary-light: rgb(210, 210, 210);
-$tertiary-light: rgb(180, 180, 180);
+$primary-dark: hsl(0, 0, 15%);
 
-$primary-blue: #7bbdff;
-$secondary-blue: #4aa5ff;
+$primary-light: hsl(0, 0, 98%);
+$secondary-light: hsl(0, 0, 88%);
+$tertiary-light: hsl(0, 0, 75%);
 
-// Colors
+$primary-transparent: hsla(0, 0%, 100%, 0.1);
+$secondary-transparent: hsla(0, 0%, 100%, 0.4);
+
+$primary-blue: hsl(204, 72%, 65%);
+$secondary-blue: hsl(194, 100%, 50%);
+
+// Color Variables
 $main-background-color: $primary-dark;
 
 $main-text-color: $primary-light;
-$site-name-text-color: $primary-light;
-$nav-links-text-color: $primary-light;
+$site-name-text-color: $white;
+$nav-links-text-color: $white;
+
 $header-text-color: $secondary-light;
 
 $post-date-text-color: $tertiary-light;
 $site-description-text-color: $tertiary-light;
 $blockquote-text-color: $tertiary-light;
 
-$selection-text-color: $primary-dark;
-$selection-background-color: $primary-light;
-
 $link-text-color: $primary-blue;
 $hover-link-color: $secondary-blue;
 
-$post-separator-color: $tertiary-light;
-$footer-banner-background-color: $secondary-dark;
-$footer-banner-border-color: $secondary-light;
+$post-separator-color: $secondary-transparent;
+$footer-banner-background-color: $primary-transparent;
+$footer-banner-border-color: $secondary-transparent;
 
 // Fonts
-$helvetica: "Helvetica", Arial, sans-serif;
-$helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$georgia: Georgia, serif;
+$main-titles-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$main-text-font: "Segoe UI", Helvetica, Arial, sans-serif;
 
 // Mobile breakpoints
 @mixin mobile {
