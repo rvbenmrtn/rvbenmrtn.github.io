@@ -6,6 +6,8 @@
 $white: white;
 
 $primary-dark: hsl(0, 0, 15%);
+$secondary-dark: hsl(0, 0, 9%);
+$tertiary-dark: hsl(0, 0, 37%);
 
 $primary-light: hsl(0, 0, 98%);
 $secondary-light: hsl(0, 0, 88%);
@@ -40,6 +42,7 @@ $footer-banner-border-color: $secondary-transparent;
 // Fonts
 $main-titles-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $main-text-font: "Segoe UI", Helvetica, Arial, sans-serif;
+$main-code-font: "Consolas", "Courier New", monospace;
 
 // Mobile breakpoints
 @mixin mobile {

@@ -21,6 +21,25 @@ body {
 	background: $main-background-color;
 	font: 18px/1.4 $main-text-font;
 	color: $main-text-color;
+	scrollbar-width: thin;
+}
+
+::-webkit-scrollbar-track {
+	background: none;
+}
+
+::-webkit-scrollbar-corner {
+	background: none;
+}
+
+::-webkit-scrollbar {
+	width: 14px;
+	height: 14px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: $tertiary-dark;
+	border-radius: 14px;
 }
 
 .container {

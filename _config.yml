@@ -51,9 +51,6 @@ url: https://discretegames.github.io
 # then add in the baseurl here, like this: "/repository-name"
 baseurl: ""
 
-include:
-  - node_modules
-
 #
 # !! You don't need to change any of the configuration flags below !!
 #
