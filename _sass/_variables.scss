@@ -1,27 +1,47 @@
-
 //
 // VARIABLES
 //
 
+$primary-dark: rgb(20, 20, 20);
+$secondary-dark: rgb(32, 32, 32);
+
+$primary-light: #fff;
+$secondary-light: rgb(210, 210, 210);
+$tertiary-light: rgb(180, 180, 180);
+
+$primary-blue: #7bbdff;
+$secondary-blue: #4aa5ff;
+
 // Colors
-$blue: #4183C4;
+$main-background-color: $primary-dark;
 
-// Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$main-text-color: $primary-light;
+$site-name-text-color: $primary-light;
+$nav-links-text-color: $primary-light;
+$header-text-color: $secondary-light;
 
-// Font stacks
-$helvetica: Helvetica, Arial, sans-serif;
-$helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$post-date-text-color: $tertiary-light;
+$site-description-text-color: $tertiary-light;
+$blockquote-text-color: $tertiary-light;
+
+$selection-text-color: $primary-dark;
+$selection-background-color: $primary-light;
+
+$link-text-color: $primary-blue;
+$hover-link-color: $secondary-blue;
+
+$post-separator-color: $tertiary-light;
+$footer-banner-background-color: $secondary-dark;
+$footer-banner-border-color: $secondary-light;
+
+// Fonts
+$helvetica: "Helvetica", Arial, sans-serif;
+$helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 
 // Mobile breakpoints
 @mixin mobile {
-  @media screen and (max-width: 640px) {
-    @content;
-  }
+	@media screen and (max-width: 640px) {
+		@content;
+	}
 }
