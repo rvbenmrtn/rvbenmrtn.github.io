@@ -18,7 +18,7 @@ The exception to the above is the discretegames logo (https://discretegames.gith
 The source code of this blog, including the visual layout (but excluding the page and post content and the discretegames logo as just mentioned) are licensed under the MIT license (https://opensource.org/licenses/MIT).
 
 
-This blog project was based on the "Jekyll-Now" template by Barry Clark (https://github.com/barryclark/jekyll-now) which is licensed as follows:
+This blog project was based on the "Jekyll-Now" template by Barry Clark (https://github.com/barryclark/jekyll-now, https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages) which is licensed as follows:
 
 
 The MIT License (MIT)
