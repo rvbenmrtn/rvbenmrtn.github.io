@@ -22,6 +22,7 @@ body {
 	font: 18px/1.4 $main-text-font;
 	color: $main-text-color;
 	scrollbar-width: thin;
+	font-size: 16px;
 }
 
 ::-webkit-scrollbar-track {
@@ -278,7 +279,7 @@ nav {
 		border-left: 2px solid $blockquote-text-color;
 		padding: 0.1em 1em;
 		color: $blockquote-text-color;
-		font-size: 22px;
+		font-size: 18px;
 		font-style: italic;
 	}
 
