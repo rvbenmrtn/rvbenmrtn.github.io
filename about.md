@@ -55,6 +55,7 @@ Email: discretizedgames[at]gmail.com
 [See full terms here.](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/LICENSE.txt)*
 
 *[This blog's source](https://github.com/discretegames/discretegames.github.io)
-is based on [Jekyll Now](https://github.com/barryclark/jekyll-now)*
+is based on [Jekyll Now](https://github.com/barryclark/jekyll-now).
+Report any layout issues or other problems [here](https://github.com/discretegames/discretegames.github.io/issues).*
 
 [logo]: {{ site.baseurl }}/assets/logo.png
