@@ -6,7 +6,7 @@
 $white: white;
 
 $primary-dark: hsl(0, 0, 15%);
-$secondary-dark: hsl(0, 0, 9%);
+$secondary-dark: hsl(0, 0, 7%);
 $tertiary-dark: hsl(0, 0, 37%);
 
 $primary-light: hsl(0, 0, 98%);
@@ -40,8 +40,8 @@ $footer-banner-background-color: $primary-transparent;
 $footer-banner-border-color: $secondary-transparent;
 
 // Fonts
-$main-titles-font: "Helvetica Neue", Helvetica, Arial, sans-serif;
-$main-text-font: "Segoe UI", Helvetica, Arial, sans-serif;
+$main-titles-font: Arial, sans-serif;
+$main-text-font: "Segoe UI", Arial, sans-serif;
 $main-code-font: "Consolas", "Courier New", monospace;
 
 // Mobile breakpoints
