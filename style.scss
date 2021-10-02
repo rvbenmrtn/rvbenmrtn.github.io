@@ -57,7 +57,7 @@ h4,
 h5,
 h6 {
 	font-family: $main-titles-font;
-	color: $header-text-color;
+	color: $subheader-text-color;
 	font-weight: bold;
 
 	line-height: 1.7;
@@ -73,10 +73,12 @@ h6 {
 }
 
 h1 {
+	color: $header-text-color;
 	font-size: 30px;
 }
 
 h2 {
+	color: $header-text-color;
 	font-size: 24px;
 }
 
@@ -288,6 +290,7 @@ nav {
 	}
 
 	.read-more {
+		line-height: 200%;
 		text-transform: uppercase;
 		font-size: 15px;
 	}
