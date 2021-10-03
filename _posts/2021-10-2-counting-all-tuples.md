@@ -9,7 +9,7 @@ In math, the positive integers `1, 2, 3, ...` are the quintessential [countable 
 
 For example, the positive *even* integers `2, 4, 6, ...` are countable because they can easily be listed with no gaps and have an obvious pairing with the positive integers : `1→2, 2→4, 3→6, ...`.
 
-In this post I'll be considering all length n [tuples](https://en.wikipedia.org/wiki/Tuple) of positive integers, such as `(5,5)` or `(1,2,3,4)` or plain `(9)`, and showing how they too are countable, even though there are infinitely many lengths n, and infinitely many tuples of each length (except n=0). I'll also be writing [Python code](https://github.com/discretegames/discretegames.github.io/blob/main/code/counting-all-tuples.py) to list [thousands of them](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/10ktuples.txt).
+In this post I'll be considering [tuples](https://en.wikipedia.org/wiki/Tuple) of positive integers of any non-negative integer length n, such as `(5,5)` or `(1,2,3,4)`, and showing how they too are countable, even though there are infinitely many tuple lengths n, and infinitely many tuples of each length (except n=0). I'll also be writing [Python code](https://github.com/discretegames/discretegames.github.io/blob/main/code/counting-all-tuples.py) to list [thousands of them](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/assets/10ktuples.txt).
 
 It won't make sense yet but their list goes:
 
@@ -55,7 +55,7 @@ The [common proof](https://www.homeschoolmath.net/teaching/rational-numbers-coun
 
 ## [Counting N-Tuples](#counting-n-tuples)
 
-Now where it gets interesting is that you can view the x or y sequence of positive integers used above for the grid axes as any other countable sequence -- we know they can map to each other after all because they can both map to positive integers by definition.
+Now where it gets interesting is that you can view the x or y sequence of positive integers used above for the grid axes as any other countable sequence -- we know they can map to each other after all by definition.
 
 For example, replace y with the sequence of 2-tuples just described and repeat the same `(x,y)` diagonalization:
 
@@ -70,15 +70,15 @@ y\x          1         2         3         4
 4=(3,1)        ...        ...
 ```
 
-The `(x,y)` pairs start to feel like [Lisp-style lists](https://docs.racket-lang.org/reference/pairs.html) but can be compressed to 3-tuples. So the order goes `(1,1,1), (2,1,1), (1,2,1), (3,1,1), ...` and we have shown that 3-tuples are countable.
+The `(x,y)` pairs start to feel like [Lisp-style lists](https://docs.racket-lang.org/reference/pairs.html) and can be compressed to 3-tuples. So the order goes `(1,1,1), (2,1,1), (1,2,1), (3,1,1), ...` and we have shown that 3-tuples are countable.
 
-The crucial point now is that this could be repeated again. Replace y with the sequence of 3-tuples and we get countable 4-tuples. Do it again for countable 5-tuples, etc. For any non-negative integer n, the set of n-tuples of positive integers is countable!
+The crucial point now is that this could be repeated again. Replace y with the sequence of 3-tuples and we get countable 4-tuples. Do it again for countable 5-tuples, etc. For any n, the set of n-tuples of positive integers is countable!
 
-(I never actually mentioned 0-tuples or 1-tuples but there is only one 0-tuple `()` and the sequence for 1-tuples `(1), (2), (3),...` is obvious.)
+(I never actually mentioned 0-tuples or 1-tuples but there is only one 0-tuple `()` and the sequence for 1-tuples `(1), (2), (3),...` is obvious, so they are both countable.)
 
 ## [Counting All N-Tuples](#counting-all-n-tuples)
 
-Finally, what's amazing is you can show that *all* n-tuples for *all* values of n combined are countable. Let `Tn_k` be the kth n-tuple and arrange each countable sequence of n-tuples on its own column of a grid:
+Finally, what's fascinating is you can show that *all* n-tuples for *all* values of n combined are countable. Let `Tn_k` be the kth n-tuple and arrange each countable sequence of n-tuples on its own column of a grid:
 
 ```text
 k\n   1    2    3    4    5
@@ -105,7 +105,7 @@ Which works out to these actual tuples:
 (1), (1,1), (2), (1,1,1), (2,1), (3), (1,1,1,1), ...
 ```
 
-Finally, tack `0` paired with the empty tuple `()` on the front for the sake of completeness.
+Tack the empty tuple `()` on the front for the sake of completeness.
 
 Thus, a combination of infinitely many infinite sets is in fact countable! This is not always true but works here because the sets are countable and there are countably many of them.
 

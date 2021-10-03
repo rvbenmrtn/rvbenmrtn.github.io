@@ -3,7 +3,7 @@
 #
 
 # To run locally:
-# jekyll serve --watch -o -l
+# jekyll serve -w -o -l
 
 # Name of your site (displayed in the header)
 name: discretegames
