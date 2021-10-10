@@ -36,7 +36,7 @@ https://cdn.discordapp.com/attachments/480162150225018891/868254314488016937/Com
 [<img src="{{ site.baseurl }}/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>][logo]
 
 NAND gates are awesome since they can be used to make [entire](https://nandgame.com/),
-[functioning](https://www.nand2tetris.org/) computers.
+[functioning](https://en.wikipedia.org/wiki/Functional_completeness) [computers](https://www.nand2tetris.org/).
 
 ## [Where to Find Me](#where-to-find-me)
 
