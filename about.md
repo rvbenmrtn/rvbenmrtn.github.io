@@ -33,16 +33,16 @@ https://cdn.discordapp.com/attachments/480162150225018891/868254314488016937/Com
 [NAND logic gate](https://en.wikipedia.org/wiki/NAND_gate) shaped like a D inside a stylized G:
 
  <!-- markdownlint-disable MD033 -->
-[<img src="{{ site.baseurl }}/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>][logo]
+[<img src="/assets/logo.png" alt="discretegames logo" style="width: 256px;"/>][logo]
 
 NAND gates are awesome since they can be used to make [entire](https://nandgame.com/),
 [functioning](https://en.wikipedia.org/wiki/Functional_completeness) [computers](https://www.nand2tetris.org/).
 
 ## [Where to Find Me](#where-to-find-me)
 
-On Twitter: [twitter.com/discretegames](https://twitter.com/discretegames)
+@discretegames on Twitter: [twitter.com/discretegames](https://twitter.com/discretegames)
 
-On GitHub: [github.com/discretegames](https://github.com/discretegames)
+@discretegames on GitHub: [github.com/discretegames](https://github.com/discretegames)
 
 I'm also a Helper on the [Python Discord](https://discord.com/invite/python). 🐍
 
@@ -52,10 +52,10 @@ Email: discretizedgames[at]gmail.com
 
 *Code on this blog is [MIT](https://opensource.org/licenses/MIT) licensed and post content is
 [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
-[See full terms here.](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/LICENSE.txt)*
+See full terms [here](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/LICENSE.txt).*
 
 *[This blog's source](https://github.com/discretegames/discretegames.github.io)
 is based on [Jekyll Now](https://github.com/barryclark/jekyll-now).  
 Please report any layout issues as well as typos, dead links, or other problems [here](https://github.com/discretegames/discretegames.github.io/issues).*
 
-[logo]: {{ site.baseurl }}/assets/logo.png
+[logo]: /assets/logo.png

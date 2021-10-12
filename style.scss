@@ -105,6 +105,10 @@ a {
 	}
 }
 
+img {
+	border-radius: 5px;
+}
+
 ul,
 ol {
 	margin: 15px 0;
@@ -201,7 +205,7 @@ img {
 	}
 
 	img {
-		border-radius: 5px;
+		border-radius: 0;
 	}
 }
 
