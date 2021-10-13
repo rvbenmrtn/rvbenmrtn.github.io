@@ -51,7 +51,7 @@ Email: discretizedgames[at]gmail.com
 ---
 
 *Code on this blog is [MIT](https://opensource.org/licenses/MIT) licensed and post content is
-[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 See full terms [here](https://raw.githubusercontent.com/discretegames/discretegames.github.io/main/LICENSE.txt).*
 
 *[This blog's source](https://github.com/discretegames/discretegames.github.io)
