@@ -4,14 +4,21 @@ layout: default
 
 <article class="post">
 	<h1><a href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h1>
-
 	<div class="entry">
 		{{ content }}
 	</div>
 
-	<div class="date">
-		Posted {{ page.date | date: "%B %e, %Y" }}
+	<div class="footer">
+		<div class="date">
+			Posted {{ page.date | date: "%B %e, %Y" }}
+		</div>
+		<div class="shares">
+			<a class="share twitter-button"
+				href="https://twitter.com/intent/tweet?text=I read a cool post on discretegames' blog: {{ site.url }}{{ site.baseurl }}{{ page.url }}">Tweet</a>
+			<a class="share copy-button" href="#"
+				onclick="navigator.clipboard.writeText('{{ site.url }}{{ site.baseurl }}{{ page.url }}'); return false;">
+				Copy Link</a>
+		</div>
 	</div>
-
 	{% include disqus.html %}
 </article>
