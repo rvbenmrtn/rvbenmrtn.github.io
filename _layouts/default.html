@@ -2,6 +2,15 @@
 <html>
 
 <head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-9L1HVX1PEG"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-9L1HVX1PEG');
+	</script>
+
 	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
 	{% include meta.html %}
@@ -49,7 +58,7 @@
 		</div>
 	</div>
 
-	{% include analytics.html %}
+	<!-- {% include analytics.html %} -->
 </body>
 
 </html>
