@@ -6,13 +6,13 @@
 # jekyll serve -w -o -l
 
 # Name of your site (displayed in the header)
-name: rvben.rtf
+name: rvbenmrtn
 
 # Short bio or description (displayed in the header)
 description: El rincón online para compartir mis trastos mentales.
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: https://mobile.twitter.com/RVBENMRTN/photo
+avatar: https://avatars.githubusercontent.com/u/77353817?s=400&u=9094b719d7b18ee74b0b0a7473fcbc553b493925&v=4
 
 #
 # Flags below are optional
